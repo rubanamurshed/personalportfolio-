@@ -97,7 +97,7 @@ body {
 .hero {
   padding: 6rem 0 5rem;
   text-align: center;
-  background-image: url('images/hero-bg.jpg');
+  background-image: url('images/hero-bg.jpeg');
   background-size: cover;
   background-position: center;
   background-attachment: fixed; /* Creates parallax scrolling effect */
