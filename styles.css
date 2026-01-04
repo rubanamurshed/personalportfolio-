@@ -4,11 +4,11 @@
   --color-primary-dark: #1a365d;
   --color-text: #2d3748;
   --color-text-light: #4a5568;
-  --color-background: #f5f0e8;
-  --color-background-alt: #ebe5dc;
+  --color-background: #F5F5DC;
+  --color-background-alt: #F5F5DC;
   --color-border: #e2e8f0;
-  --color-green: #c8e6c9;
-  --color-pink: #f8bbd0;
+  --color-green: #B7C9B7;
+  --color-pink: #F4C2C2;
   --color-yellow: #fff9c4;
   --color-purple: #d1c4e9;
   --font-main: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
@@ -375,6 +375,40 @@ a:hover {
 .btn-secondary:hover {
   background-color: var(--color-primary);
   color: white;
+}
+
+/* Button base styles */
+.btn {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background-color: var(--color-green);
+  color: #2d3748;
+}
+
+.btn-primary:hover {
+  background-color: #9FB89F;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.btn-secondary {
+  background-color: var(--color-pink);
+  color: #2d3748;
+}
+
+.btn-secondary:hover {
+  background-color: #E5AAAA;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 /* ===== RESPONSIVE DESIGN ===== */
