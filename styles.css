@@ -1,4 +1,4 @@
-/*font-size: 14px ===== CSS VARIABLES ===== */
+/* ===== CSS VARIABLES ===== */
 :root {
   --color-primary: #2c5282;
   --color-primary-dark: #1a365d;
@@ -90,21 +90,21 @@ body {
 }
 
 .section-alt {
-  background-color: var(--color-background-alt);
+  background-color: var(--color-background);
 }
 
 /* ===== HERO SECTION ===== */
 .hero {
   padding: 6rem 0 5rem;
   text-align: center;
-  background-image: url('images/hero-bg.jpeg');
+  /*background-image: url('images/hero-bg.jpeg');
   background-size: cover;
   background-position: center;
   background-attachment: fixed; /* Creates parallax scrolling effect */
-  position: relative;
+  /*position: relative;*/ */
 }
 
-/* Semi-transparent overlay so text is readable */
+/*/* Semi-transparent overlay so text is readable */
 .hero::before {
   content: '';
   position: absolute;
@@ -114,7 +114,7 @@ body {
   bottom: 0;
   background: rgba(245, 240, 232, 0.85); /* Adjust opacity: 0.85 = 85% transparent beige */
   z-index: 0;
-}
+} */
 
 /* Make sure text appears above the overlay */
 .hero .container {
@@ -176,8 +176,8 @@ a:hover {
 }
 
 .project:nth-child(1) { 
-  background-color: var(--color-green); 
-  border-color: #a5d6a7;
+  background-colo
+    border-color: rgba(0, 0, 0, 0.1);border-color: #a5d6a7;
 }
 
 .project:nth-child(2) { 
